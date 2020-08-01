@@ -1,0 +1,101 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    margin: 0%;
+}
+.parentDiv{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+}
+.leftDiv{
+    background-color: #FEFEFE;
+    height:100vh;
+    width: 15vw;
+    border-right: #EEEEEE solid 3px;
+    
+}
+.centerDiv{
+    background-color: #F4F6FC;
+    height:100vh;
+    width: 61vw;
+    display: flex;
+    flex-direction:column;
+    align-items: stretch;
+    padding-left: 3.1vw;
+    padding-right: 3.1vw;
+}
+.centerTop{
+    background-color: #F8E5E9;
+    height: 19vh;
+    margin-top: 13.5vh;
+    border-radius: 15px;
+}
+.centerMiddle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.7vh;
+    justify-content: space-between;
+    
+
+}
+.resDiv{
+background-color: #FDFDFD;
+height: 42.5vh;
+width: 23.8vw;
+border-radius: 15px;
+
+}
+.timeDiv{
+    background-color: #FDFDFD;
+    height: 42.5vh;
+    width: 31.6vw;
+    border-radius: 15px;
+    
+}
+.centerBottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8.5vh;
+    justify-content: space-between;
+}
+.button1{
+  width: 17.8vw;
+  height: 9.5vh;
+  background-color: #4E4CAB;
+  border-radius: 15px;
+}
+.button2{
+    width: 17.8vw;
+    height: 9.5vh;
+    background-color: #4E4CAB;
+    border-radius: 15px;
+  }
+  .button3{
+    width: 17.8vw;
+    height: 9.5vh;
+    background-color: #ee5253;
+    border-radius: 15px;
+  }
+.rightDiv{
+    background-color: #FEFEFE;
+    height:100vh;
+    width: 24vw;
+    border-left: #EEEEEE solid 2px;
+}
+#overlay {
+    position: fixed;
+    width: 17.8vw;
+    height: 9.5vh;
+    background-color:#ffffff;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+    display: block;
+    border-radius: 15px;
+}
